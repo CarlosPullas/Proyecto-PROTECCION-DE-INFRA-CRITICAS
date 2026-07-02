@@ -1,0 +1,10 @@
+[OK] Suricata activo
+[OK] Filebeat activo
+[OK] ens33 activa
+[OK] ens33 tiene IP 192.168.1.37
+[OK] /var/log/suricata/eve.json existe y crece (8421 -> 8429)
+[OK] Conexion a 192.168.1.22:5044 correcta
+[OK] Filebeat sin errores recientes relevantes
+[OK] ids.sensor_ip configurado como 192.168.1.37
+[OK] Filebeat apunta a 192.168.1.22:5044
+Resultado final: IDS operativo

@@ -1,0 +1,63 @@
+2/7/2026 -- 02:08:15 - <Warning> -- Source index does not exist, will use bundled one.
+2/7/2026 -- 02:08:15 - <Warning> -- Please run suricata-update update-sources.
+2/7/2026 -- 02:08:15 - <Info> -- Using data-directory /var/lib/suricata.
+2/7/2026 -- 02:08:15 - <Info> -- Using Suricata configuration /etc/suricata/suricata.yaml
+2/7/2026 -- 02:08:15 - <Info> -- Using /etc/suricata/rules for Suricata provided rules.
+2/7/2026 -- 02:08:15 - <Info> -- Found Suricata version 7.0.3 at /usr/bin/suricata.
+[1;36mName[0m: [1;35met/open[0m
+  [1;36mVendor[0m: [1;35mProofpoint[0m
+  [1;36mSummary[0m: [1;35mEmerging Threats Open Ruleset[0m
+  [1;36mLicense[0m: [1;35mMIT[0m
+[1;36mName[0m: [1;35met/pro[0m
+  [1;36mVendor[0m: [1;35mProofpoint[0m
+  [1;36mSummary[0m: [1;35mEmerging Threats Pro Ruleset[0m
+  [1;36mLicense[0m: [1;35mCommercial[0m
+  [1;36mReplaces[0m: [1;35met/open[0m
+  [1;36mParameters[0m: [1;35msecret-code[0m
+  [1;36mSubscription[0m: [1;35mhttps://www.proofpoint.com/us/threat-insight/et-pro-ruleset[0m
+[1;36mName[0m: [1;35metnetera/aggressive[0m
+  [1;36mVendor[0m: [1;35mEtnetera a.s.[0m
+  [1;36mSummary[0m: [1;35mEtnetera aggressive IP blacklist[0m
+  [1;36mLicense[0m: [1;35mMIT[0m
+[1;36mName[0m: [1;35mmalsilo/win-malware[0m
+  [1;36mVendor[0m: [1;35mmalsilo[0m
+  [1;36mSummary[0m: [1;35mCommodity malware rules[0m
+  [1;36mLicense[0m: [1;35mMIT[0m
+[1;36mName[0m: [1;35moisf/trafficid[0m
+  [1;36mVendor[0m: [1;35mOISF[0m
+  [1;36mSummary[0m: [1;35mSuricata Traffic ID ruleset[0m
+  [1;36mLicense[0m: [1;35mMIT[0m
+[1;36mName[0m: [1;35mscwx/enhanced[0m
+  [1;36mVendor[0m: [1;35mSecureworks[0m
+  [1;36mSummary[0m: [1;35mSecureworks suricata-enhanced ruleset[0m
+  [1;36mLicense[0m: [1;35mCommercial[0m
+  [1;36mParameters[0m: [1;35msecret-code[0m
+  [1;36mSubscription[0m: [1;35mhttps://www.secureworks.com/contact/ (Please reference CTU Countermeasures)[0m
+[1;36mName[0m: [1;35mscwx/malware[0m
+  [1;36mVendor[0m: [1;35mSecureworks[0m
+  [1;36mSummary[0m: [1;35mSecureworks suricata-malware ruleset[0m
+  [1;36mLicense[0m: [1;35mCommercial[0m
+  [1;36mParameters[0m: [1;35msecret-code[0m
+  [1;36mSubscription[0m: [1;35mhttps://www.secureworks.com/contact/ (Please reference CTU Countermeasures)[0m
+[1;36mName[0m: [1;35mscwx/security[0m
+  [1;36mVendor[0m: [1;35mSecureworks[0m
+  [1;36mSummary[0m: [1;35mSecureworks suricata-security ruleset[0m
+  [1;36mLicense[0m: [1;35mCommercial[0m
+  [1;36mParameters[0m: [1;35msecret-code[0m
+  [1;36mSubscription[0m: [1;35mhttps://www.secureworks.com/contact/ (Please reference CTU Countermeasures)[0m
+[1;36mName[0m: [1;35msslbl/ja3-fingerprints[0m
+  [1;36mVendor[0m: [1;35mAbuse.ch[0m
+  [1;36mSummary[0m: [1;35mAbuse.ch Suricata JA3 Fingerprint Ruleset[0m
+  [1;36mLicense[0m: [1;35mNon-Commercial[0m
+[1;36mName[0m: [1;35msslbl/ssl-fp-blacklist[0m
+  [1;36mVendor[0m: [1;35mAbuse.ch[0m
+  [1;36mSummary[0m: [1;35mAbuse.ch SSL Blacklist[0m
+  [1;36mLicense[0m: [1;35mNon-Commercial[0m
+[1;36mName[0m: [1;35mstamus/lateral[0m
+  [1;36mVendor[0m: [1;35mStamus Networks[0m
+  [1;36mSummary[0m: [1;35mLateral movement rules[0m
+  [1;36mLicense[0m: [1;35mGPL-3.0-only[0m
+[1;36mName[0m: [1;35mtgreen/hunting[0m
+  [1;36mVendor[0m: [1;35mtgreen[0m
+  [1;36mSummary[0m: [1;35mThreat hunting rules[0m
+  [1;36mLicense[0m: [1;35mGPLv3[0m

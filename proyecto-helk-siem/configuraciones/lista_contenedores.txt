@@ -1,0 +1,10 @@
+NAMES                IMAGE                                                 STATUS              PORTS
+helk-elastalert      otrf/helk-elastalert:latest                           Up About an hour    
+helk-ksql-cli        confluentinc/ksqldb-cli:latest                        Up About an hour    
+helk-ksql-server     confluentinc/ksqldb-server:latest                     Up About a minute   0.0.0.0:8088->8088/tcp, [::]:8088->8088/tcp
+helk-kafka-broker    otrf/helk-kafka-broker:2.4.0                          Up About an hour    0.0.0.0:9092->9092/tcp, [::]:9092->9092/tcp
+helk-zookeeper       otrf/helk-zookeeper:2.4.0                             Up About an hour    2181/tcp, 2888/tcp, 3888/tcp
+helk-logstash        otrf/helk-logstash:7.6.2.1                            Up About an hour    0.0.0.0:3515->3515/tcp, [::]:3515->3515/tcp, 0.0.0.0:5044->5044/tcp, [::]:5044->5044/tcp, 0.0.0.0:5514->5514/tcp, 0.0.0.0:5514->5514/udp, [::]:5514->5514/tcp, [::]:5514->5514/udp, 0.0.0.0:8515-8516->8515-8516/tcp, [::]:8515-8516->8515-8516/tcp, 0.0.0.0:8531->8531/tcp, [::]:8531->8531/tcp, 0.0.0.0:8515-8516->8515-8516/udp, [::]:8515-8516->8515-8516/udp, 9600/tcp
+helk-nginx           otrf/helk-nginx:0.3.0                                 Up About an hour    0.0.0.0:80->80/tcp, [::]:80->80/tcp, 0.0.0.0:443->443/tcp, [::]:443->443/tcp
+helk-kibana          docker.elastic.co/kibana/kibana:7.6.2                 Up About an hour    5601/tcp
+helk-elasticsearch   docker.elastic.co/elasticsearch/elasticsearch:7.6.2   Up About an hour    9200/tcp, 9300/tcp

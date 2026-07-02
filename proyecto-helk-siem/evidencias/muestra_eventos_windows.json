@@ -1,0 +1,64 @@
+{
+  "took" : 13386,
+  "timed_out" : false,
+  "_shards" : {
+    "total" : 17,
+    "successful" : 17,
+    "skipped" : 0,
+    "failed" : 0
+  },
+  "hits" : {
+    "total" : {
+      "value" : 10000,
+      "relation" : "gte"
+    },
+    "max_score" : null,
+    "hits" : [
+      {
+        "_index" : "logs-endpoint-winevent-sysmon-2026.07.02",
+        "_type" : "_doc",
+        "_id" : "f98c592a77eb34814b4c7f3b3d04eced98497a43",
+        "_score" : null,
+        "_source" : {
+          "@timestamp" : "2026-07-02T02:06:46.653Z",
+          "event_id" : 22,
+          "source_name" : "Microsoft-Windows-Sysmon",
+          "host_name" : "carlos"
+        },
+        "sort" : [
+          1782958006653
+        ]
+      },
+      {
+        "_index" : "logs-endpoint-winevent-sysmon-2026.07.02",
+        "_type" : "_doc",
+        "_id" : "e8b358371bb31742c555c571bf1058bdba3c0ed1",
+        "_score" : null,
+        "_source" : {
+          "@timestamp" : "2026-07-02T02:06:24.791Z",
+          "event_id" : 1,
+          "source_name" : "Microsoft-Windows-Sysmon",
+          "host_name" : "carlos"
+        },
+        "sort" : [
+          1782957984791
+        ]
+      },
+      {
+        "_index" : "logs-endpoint-winevent-sysmon-2026.07.02",
+        "_type" : "_doc",
+        "_id" : "f9b93680f4abcc443593405aa7a0eaccbe1c48ab",
+        "_score" : null,
+        "_source" : {
+          "@timestamp" : "2026-07-02T02:06:23.943Z",
+          "event_id" : 22,
+          "source_name" : "Microsoft-Windows-Sysmon",
+          "host_name" : "carlos"
+        },
+        "sort" : [
+          1782957983943
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+## IDS current verification
+2026-07-02T02:04:46+00:00
+### IP ens33
+ens33            UP             192.168.1.37/26 metric 100 2800:370:c1:c8e0:20c:29ff:fe93:913f/64 fe80::20c:29ff:fe93:913f/64 
+### Link ens33
+up
+### Suricata active/enabled
+active
+enabled
+### Filebeat active/enabled
+active
+enabled
+### Filebeat output and sensor
+31:output.logstash:
+32:  hosts: ["192.168.1.22:5044"]
+47:      target: ids
+49:        sensor_ip: 192.168.1.37
+### Log exists/growth before
+/var/log/suricata/eve.json size=10330012 mtime=2026-07-02 02:04:42.321970775 +0000
+8077 /var/log/suricata/eve.json
+### Connectivity
+### Filebeat test output
+logstash: 192.168.1.22:5044...
+  connection...
+    parse host... OK
+    dns lookup... OK
+    addresses: 192.168.1.22
+    dial up... OK
+  TLS... WARN secure connection disabled
+  talk to server... OK

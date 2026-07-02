@@ -1,0 +1,85 @@
+{
+  "took" : 106,
+  "timed_out" : false,
+  "_shards" : {
+    "total" : 1,
+    "successful" : 1,
+    "skipped" : 0,
+    "failed" : 0
+  },
+  "hits" : {
+    "total" : {
+      "value" : 8314,
+      "relation" : "eq"
+    },
+    "max_score" : null,
+    "hits" : [
+      {
+        "_index" : "logs-suricata-2026.07.02",
+        "_type" : "_doc",
+        "_id" : "Q7iUIJ8B-QlKRn0eowTp",
+        "_score" : null,
+        "_source" : {
+          "src_ip" : "192.168.1.13",
+          "@timestamp" : "2026-07-02T02:07:17.885Z",
+          "event_type" : "flow",
+          "dest_ip" : "20.184.175.15",
+          "proto" : "TCP",
+          "ids" : {
+            "sensor_ip" : "192.168.1.37"
+          },
+          "event" : {
+            "module" : "suricata"
+          }
+        },
+        "sort" : [
+          1782958037885
+        ]
+      },
+      {
+        "_index" : "logs-suricata-2026.07.02",
+        "_type" : "_doc",
+        "_id" : "RLiUIJ8B-QlKRn0eowTp",
+        "_score" : null,
+        "_source" : {
+          "src_ip" : "192.168.1.22",
+          "event_type" : "flow",
+          "@timestamp" : "2026-07-02T02:07:17.885Z",
+          "dest_ip" : "172.64.155.209",
+          "proto" : "TCP",
+          "ids" : {
+            "sensor_ip" : "192.168.1.37"
+          },
+          "event" : {
+            "module" : "suricata"
+          }
+        },
+        "sort" : [
+          1782958037885
+        ]
+      },
+      {
+        "_index" : "logs-suricata-2026.07.02",
+        "_type" : "_doc",
+        "_id" : "QLiUIJ8B-QlKRn0eowTp",
+        "_score" : null,
+        "_source" : {
+          "src_ip" : "192.168.1.13",
+          "@timestamp" : "2026-07-02T02:07:15.885Z",
+          "event_type" : "flow",
+          "dest_ip" : "57.150.43.97",
+          "proto" : "TCP",
+          "ids" : {
+            "sensor_ip" : "192.168.1.37"
+          },
+          "event" : {
+            "module" : "suricata"
+          }
+        },
+        "sort" : [
+          1782958035885
+        ]
+      }
+    ]
+  }
+}
